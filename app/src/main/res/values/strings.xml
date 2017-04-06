@@ -1,0 +1,37 @@
+<resources>
+    <!--Main Activity title-->
+    <string name="app_name">quizApp</string>
+
+    <!--Main menu strings-->
+    <string name="start_button">Start</string>
+
+    <string name="score_button">Score</string>
+
+    <string name="close_button">Close</string>
+
+
+    <!--Category activity strings-->
+    <string name="start_quiz_button">Start quiz</string>
+
+
+    <!--Category activity strings-->
+    <string name="title_category">Choose category</string>
+
+
+    <!--Toolbar strings-->
+    <string name="action_return">Return</string>
+
+
+    <!--Question activity strings-->
+    <string name="question_activity_title">Question %1$s</string>
+
+
+    <!--Summary Activity-->
+    <string name="summary_activity_title">Summary</string>
+
+
+    <!--Score Activity-->
+    <string name="score_activity_title">Best scores</string>
+
+    <string name = "score_activity_point"> points</string>
+</resources>

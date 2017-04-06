@@ -1,0 +1,69 @@
+{	
+	"category": "Android",
+	
+	"question1": {
+		"question": "What type of layout do you see on the picture?",
+		"anserws": {
+			 "1": "LinearLayout",
+			"2": "RelativeLayout",
+			"3": "StackLayout",
+			"4": "Grid",
+			"correct": 4
+		},
+		"image_id": "question1_1"
+
+	},
+	
+	"question2": {
+		"question": "On which langauge is android based?",
+		"anserws": {
+			 "1": "c++",
+			"2": "java",
+			"3": "python",
+			"4": "xml",
+			"correct": 2
+		},
+		"image_id": "question1_2"
+
+	},
+	
+	"question3": {
+		"question": "Button, TextEdit, ImageButton what is the base class name of all this objects?",
+		"anserws": {
+			 "1": "View",
+			"2": "Object",
+			"3": "Window",
+			"4": "Runnable",
+			"correct": 1
+		},
+		"image_id": "question1_3"
+
+	},
+	
+	"question4": {
+		"question": "What is the best data type to store expresion show on the image?",
+		"anserws": {
+			 "1": "Boolean",
+			"2": "Integer",
+			"3": "Char",
+			"4": "String",
+			"correct": 4
+		},
+		"image_id": "question1_4"
+
+	},
+	
+	"question5": {
+		"question": "Where android apps store images?",
+		"anserws": {
+			 "1": "@src",
+			"2": "@drawable",
+			"3": "@assest",
+			"4": "@string",
+			"correct": 2
+		},
+		"image_id": "question1_5"
+
+	}
+	
+}

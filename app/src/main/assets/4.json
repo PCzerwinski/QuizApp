@@ -1,0 +1,56 @@
+{
+	
+ "category": "Animals",
+
+	"question1": {
+		"question": "Which animal is believed to make the longest known migration??",
+		"anserws": {
+			 "1": "Blue whale",
+			"2": "Wildebeest",
+			"3": "Monarch butterfly",
+			"4": "Arctic tern",
+			"correct": 4
+		},
+		"image_id": "question1"
+
+	},
+	
+	"question2": {
+		"question": "Which one is the most popular purebred cat breed??",
+		"anserws": {
+			 "1": "LBritish shorthair",
+			"2": "Siamese",
+			"3": "Persian",
+			"4": "Maine coon",
+			"correct": 3
+		},
+		"image_id": "question2"
+
+	},
+	
+	"question3": {
+		"question": "Which of these dogs is unable to bark?",
+		"anserws": {
+			 "1": "Poodle",
+			"2": "Basenji",
+			"3": "Pomeranian",
+			"4": "Pug",
+			"correct": 2
+		},
+		"image_id": "question3"
+
+	},
+	
+	"question4": {
+		"question": "What is recently believed to cause the death of thousands of amphibians in the last few decades?",
+		"anserws": {
+			 "1": "Fires",
+			"2": "A fungus",
+			"3": "Climat chang3",
+			"4": "Pollution",
+			"correct": 2
+		},
+		"image_id": "question4"
+
+	}
+}

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_category__toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:title=""
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:gravity="center|start"
+      />
+
+
+
+    <View android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/toolbar_shadow"/>
+
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+
+        <com.example.sethq.quizapp.SquareButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/category_1_selector"
+            android:id="@+id/category_button_id_1"
+            android:text="Android"
+            android:gravity="bottom|center"
+            android:textColor="@android:color/white"
+            />
+
+        <com.example.sethq.quizapp.SquareButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/category_3_selector"
+            android:id="@+id/category_button_id_2"
+            android:text="Music"
+            android:gravity="bottom|center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            />
+
+        <com.example.sethq.quizapp.SquareButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/category_5_selector"
+            android:id="@+id/category_button_id_3"
+            android:text="Stars"
+            android:gravity="bottom|center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+               android:weightSum="3"
+       >
+
+
+        <com.example.sethq.quizapp.SquareButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@drawable/category_2_selector"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/category_button_id_4"
+            android:text="Animals"
+            android:gravity="bottom|center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+
+            />
+
+        <com.example.sethq.quizapp.SquareButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@drawable/category_4_selector"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/category_button_id_5"
+            android:text="History"
+            android:gravity="bottom|center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            />
+
+        <com.example.sethq.quizapp.SquareButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@drawable/category_6_selector"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/category_button_id_6"
+            android:text="Games"
+            android:gravity="bottom|center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            />
+
+    </LinearLayout>
+
+   </LinearLayout>
+
+
+</LinearLayout>
+
