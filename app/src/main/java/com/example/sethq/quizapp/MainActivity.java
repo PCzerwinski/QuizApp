@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         toolbar.setTitle(R.string.app_name);
     }
 
-//    Buttons methods
+
 
 //Start button
 //Opening the category menu
